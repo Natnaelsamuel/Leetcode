@@ -28,7 +28,7 @@ var backspaceCompare = function(s, t) {
             count++;
         }
     }
-if(stacks <= stackt){
+if(stacks >= stackt){
     if (count == stacks.length) return true;
 }else {
     if (count == stackt.length) return true;
